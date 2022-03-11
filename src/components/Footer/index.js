@@ -13,20 +13,20 @@ const Footer = () => {
                 </SocialLogo>
                 <WebsiteRights>EXPLOR © {new Date().getFullYear()}</WebsiteRights>
                 <SocialIcons>
-                    <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
+                    <SocialIconLink href='https://www.facebook.com/OneStaffMedical/' target='_blank' aria-label='Facebook'>
                         <FaFacebook />
                     </SocialIconLink>
-                    <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
+                    <SocialIconLink href='https://www.instagram.com/onestaffmedical/?hl=en' target='_blank' aria-label='Instagram'>
                         <FaInstagram />
                     </SocialIconLink>
                     <SocialIconLink href='/' target='_blank' aria-label='Youtube'>
                         <FaYoutube />
                     </SocialIconLink>
-                    <SocialIconLink href='/' target='_blank' aria-label='Twitter'>
-                        <FaTwitter />
-                    </SocialIconLink>
-                    <SocialIconLink href='/' target='_blank' aria-label='LinkedIn'>
+                    <SocialIconLink href='https://www.linkedin.com/company/onestaff-medical' target='_blank' aria-label='LinkedIn'>
                         <FaLinkedin />
+                    </SocialIconLink>
+                    <SocialIconLink href='https://twitter.com/onestaffmedical?lang=en' target='_blank' aria-label='Twitter'>
+                        <FaTwitter />
                     </SocialIconLink>
                 </SocialIcons>
             </SocialMediaWrap>

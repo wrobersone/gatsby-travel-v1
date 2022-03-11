@@ -3,7 +3,7 @@
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "William Robersone <wrobersone@onestaffmedical.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^2.0.6",
     "gatsby": "^4.8.0",
@@ -15,7 +15,8 @@
     "gatsby-plugin-react-helmet": "^5.8.0",
     "gatsby-plugin-sharp": "^4.8.0",
     "gatsby-plugin-styled-components": "^5.8.0",
-    "gatsby-source-filesystem": "^4.8.0",
+    "gatsby-source-filesystem": "^4.9.1",
+    "gatsby-transformer-json": "^4.9.0",
     "gatsby-transformer-sharp": "^4.8.0",
     "prop-types": "^15.8.0",
     "react": "^17.0.1",

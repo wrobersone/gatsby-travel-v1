@@ -53,10 +53,15 @@ export const SocialIcons = styled.div`
 export const SocialIconLink = styled.a`
     color: #fff;
     font-size: 24px;
+
+    &:hover {
+        color: #ed9d62;
+        transition: all 0.3s ease;
+        transform: scale(1.3);
+    }
 `
 
 export const WebsiteRights = styled.small`
     color: #fff;
     margin-bottom: 16px;
-    font-family: 'Ubuntu', sans-serif;
 `

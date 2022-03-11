@@ -44,6 +44,12 @@ const Navbar = () => {
                             <NavItem>
                                 <NavLinks to='/destinations'>Destinations</NavLinks>
                             </NavItem>
+                            <NavItem>
+                                <NavLinks to='/osmblog'>OSMBlog</NavLinks>
+                            </NavItem>
+                            <NavItem>
+                                <NavLinks to='/resources'>OSMResources</NavLinks>
+                            </NavItem>
                         </NavMenu>
                     </NavbarContainer>
                 </Nav>

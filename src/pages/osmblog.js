@@ -3,14 +3,17 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import "../../src/components/layout.css"
 
-const Destinations = () => (
+import AllBlog from '../components/Blog/AllBlog'
+
+const Blog = () => (
   <Layout>
-    <Seo title="Destinations" />
-    <h1 className="destinations">Destinations</h1>
+    <Seo title="OSMBlog" />
+    <h1 className="destinations">Our Blog</h1>
     <h2>Wanna go?</h2>
     <p>This is a test</p>
+    <AllBlog />
     
   </Layout>
 )
 
-export default Destinations
+export default Blog
