@@ -5,12 +5,14 @@ import Seo from "../components/seo"
 import HeroSection from "../components/HeroSection"
 import Hero from "../components/Hero/Hero"
 import Featured from "../components/Featured/Featured"
+import Services from "../components/Services/Services"
 
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     {/* <HeroSection /> */}
     <Hero />
+    <Services />
     <Featured />
   </Layout>
 )

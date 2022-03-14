@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Link } from "gatsby";
 
 export const FooterContainer = styled.div`
-    background-color: #101522;
+    background-color: antiquewhite;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -56,12 +56,12 @@ export const SocialIconLink = styled.a`
 
     &:hover {
         color: #ed9d62;
-        transition: all 0.3s ease;
+        transition: all 0.3s ease-in-out;
         transform: scale(1.3);
     }
 `
 
 export const WebsiteRights = styled.small`
-    color: #fff;
+    color: #308b7c;
     margin-bottom: 16px;
 `

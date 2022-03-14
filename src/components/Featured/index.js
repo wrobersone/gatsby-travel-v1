@@ -1,0 +1,5 @@
+export { default as city1 } from '../../assets/images/la1.jpg'
+export { default as city2 } from '../../assets/images/la2.jpg'
+export { default as city3 } from '../../assets/images/la3.jpg'
+export { default as city4 } from '../../assets/images/la4.jpg'
+export { default as city5 } from '../../assets/images/la5.jpg'
