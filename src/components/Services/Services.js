@@ -54,6 +54,7 @@ export default function Services() {
 
 const Section = styled.section`
   padding: 5rem 0;
+  margin: 0.5rem 1rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;

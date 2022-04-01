@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa'
 import { FooterContainer, SocialIcon, SocialIcons, SocialIconLink, SocialMedia, SocialMediaWrap, SocialLogo, WebsiteRights } from './FooterElements'
+import Logo from '../../images/osm_mobile_logo.png'
 
 const Footer = () => {
   return (
@@ -8,10 +9,9 @@ const Footer = () => {
         <SocialMedia>
             <SocialMediaWrap>
                 <SocialLogo to='/'>
-                    <SocialIcon />
-                    EXPLOR
+                    <img src={Logo} alt="" style={{ width: 150, paddingLeft: 10}} /> 
                 </SocialLogo>
-                <WebsiteRights>EXPLOR © {new Date().getFullYear()}</WebsiteRights>
+                <WebsiteRights>OneStaffMedical © {new Date().getFullYear()}. All Rights Reserved</WebsiteRights>
                 <SocialIcons>
                     <SocialIconLink href='https://www.facebook.com/OneStaffMedical/' target='_blank' aria-label='Facebook'>
                         <FaFacebook />

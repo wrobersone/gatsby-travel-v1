@@ -42,6 +42,7 @@ const Section = styled.section`
   height: 100%;
   .background {
     height: 100%;
+    margin: 1rem 2rem;
     img {
       width: 100%;
       filter: brightness(85%);
@@ -136,7 +137,6 @@ const Section = styled.section`
         }
         p {
           font-size: 0.8rem;
-          padding: 1vw;
         }
       }
       .search {
@@ -153,6 +153,19 @@ const Section = styled.section`
         button {
           padding: 1rem;
           font-size: 1rem;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 480px) and (max-width: 896px) {
+    .content {
+      .title {
+        h1 {
+          font-size: 2rem;
+        }
+        p {
+          display: none;
         }
       }
     }

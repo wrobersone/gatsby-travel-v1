@@ -50,7 +50,7 @@ const Featured = () => {
             </div>
             <div className="span-2 right-img-details">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus velit atque vero consequatur provident, dolorum esse tempore aut aspernatur hic quasi delectus saepe porro architecto sunt natus vitae nam quos?</p>
-                <Button className="btn"><Link to='/destinations'>View Location</Link></Button>
+                {/* <Button className="btn"><Link to='/destinations'>View Location</Link></Button> */}
             </div>
         </div>
             
@@ -64,7 +64,7 @@ const Featured = () => {
             <img className='order-5' src={place5} alt="" />
             <div className="span-2 right-img-details order-7">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus velit atque vero consequatur provident</p>
-                <Button className="btn"><Link to='/destinations'>View Location</Link></Button>
+                {/* <Button className="btn"><Link to='/destinations'>View Location</Link></Button> */}
             </div>
             <div className="span-3 img-details order-6">
                 <div className="top">

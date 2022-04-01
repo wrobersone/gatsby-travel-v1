@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+}
+
+.search {
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    color: tomato;
+    gap: 1rem;
+    font-size: 1.5rem;
+}
+
+input {
+    border: none;
+    /* color: blue; */
+    background-color: bisque;
+}
+
+@media screen and (max-width: 960px) {
+    .search {
+        display: none;
+    }
+}
