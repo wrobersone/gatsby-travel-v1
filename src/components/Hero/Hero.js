@@ -15,16 +15,16 @@ const Hero = () => {
         </div>
         <div className="search">
           <div className="container">
-            <label htmlFor="">Where do you want to go?</label>
-            <input type="text" placeholder='Search your location' />
+            <label htmlFor="">What is your Discipline?</label>
+            <input type="text"  />
           </div>
           <div className="container">
-            <label htmlFor="">Check-in</label>
-            <input type="date" />
+            <label htmlFor="">What is your Specialty?</label>
+            <input type="text"  />
           </div>
           <div className="container">
-            <label htmlFor="">Check-out</label>
-            <input type="date" />
+            <label htmlFor="">What is your Location?</label>
+            <input type="text"  />
           </div>
           <button>Explore Now</button>
         </div>

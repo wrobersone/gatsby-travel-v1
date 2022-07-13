@@ -4,8 +4,6 @@ import { CgMenuRight } from 'react-icons/cg'
 import { IconContext } from 'react-icons/lib'
 import { Nav, NavbarContainer, NavLogo, NavIcon, MobileIcon, NavMenu, NavItem, NavLinks, NavSearch } from './NavbarElements'
 import Logo from '../../images/osm_mobile_logo.png'
-import Search from '../Search/Search'
-
 
 const Navbar = () => {
     const [click, setClick] = useState(false)
@@ -14,7 +12,7 @@ const Navbar = () => {
     const handleClick = () => setClick(!click)
 
     const changeNav = () => {
-        if (window.scrollY >= 80) {
+        if (window.scrollY >= 50) {
             setScroll(true)
         } else {
             setScroll(false)
@@ -45,17 +43,17 @@ const Navbar = () => {
                                 <NavLinks to='/osmtravel'>Travel Jobs</NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to='/destinations'>Destinations</NavLinks>
+                                <NavLinks to='/destinations'>Resources</NavLinks>
                             </NavItem>
                             <NavItem>
                                 <NavLinks to='/aboutosm'>About Us</NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to='/osmblog'>OSMBlog</NavLinks>
+                                <NavLinks to='/osmblog'>OSM Blog</NavLinks>
                             </NavItem>
                     
                         </NavMenu>
-                        <Search />
+                        
                     </NavbarContainer>
                 </Nav>
             </IconContext.Provider>
